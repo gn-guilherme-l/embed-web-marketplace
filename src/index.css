@@ -1,0 +1,13 @@
+@import url("./assets/roobert/Roobert.css");
+@import url("normalize.css");
+
+* {
+  font-family: inherit;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Roobert, sans-serif;
+}
