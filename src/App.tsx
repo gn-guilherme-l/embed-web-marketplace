@@ -152,7 +152,6 @@ function App() {
 
       <DownloadShopButtons />
 
-      <MarketplaceTitle>Reset your mind, one page at a time.</MarketplaceTitle>
       <MarketplaceCarousel />
 
       <BottomSection>
@@ -597,22 +596,17 @@ const FeatureHighlightPlatform = styled.div`
   align-self: flex-start;
 `
 
-const MarketplaceTitle = styled.h2`
-  ${font600Normal60}
-  margin-top: 60px;
-  margin-bottom: 50px;
-`
-
 const MarketplaceCarousel = () => {
   return (
-    <MarketplaceEmbedItemCarousel src='https://marketplace.goodnotesbeta.com/en/embed/ic/65eb069b9413198024bed3ed?theme=light&padding-inline=max(24px, 50%25 - 580px)' />
+    <MarketplaceEmbedItemCarousel src='https://marketplace.goodnotesbeta.com/en/embed/ic/65eb069b9413198024bed3ed?theme=light&padding-inline=max(24px, 50%25 - 580px)&title-gap=50px&hierarchy=2' />
   );
 }
 
 const MarketplaceEmbedItemCarousel = styled.iframe`
   border: none;
   width: 100%;
-  height: 330px;
+  height: 460px;
+  margin-top: 60px;
   margin-bottom: 100px;
 `;
 
